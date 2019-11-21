@@ -1,1 +1,12 @@
-/* Denna fil skall innehålla din CSS kod */
+@media only screen and (max-width: 600px) {
+    #djur {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+    's1'
+    's2'
+    's3'
+    ;
+    border: solid 3px black;
+    }
+    }
