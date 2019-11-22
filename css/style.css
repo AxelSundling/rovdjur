@@ -1,12 +1,49 @@
+
 @media only screen and (max-width: 600px) {
-    #djur {
-    display: grid;
-    height: 100vh;
-    grid-template-areas:
-    's1'
-    's2'
-    's3'
+.rubrik { grid-area: hd; }
+.menu { grid-area: mu; }
+.bjornen { grid-area: mn; }
+.om { grid-area: rt; }
+.vargen { grid-area: fr; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'hd hd hd mu '
+    'mn mn mn mn  '
+    'fr fr fr fr '
+    'rt rt rt rt'
     ;
-    border: solid 3px black;
-    }
-    }
+
+}
+}
+.rubrik {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-color: cadetblue
+}
+.bjornen{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-image: url("img/bear.jpeg")
+    
+}
+.menu{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.om{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.vargen{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+
