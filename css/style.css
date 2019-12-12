@@ -2,16 +2,47 @@
 @media only screen and (max-width: 600px) {
 .rubrik { grid-area: hd; }
 .bjornen { grid-area: mn; }
-.om { grid-area: rt; }
+.logga { grid-area: rt; }
 .vargen { grid-area: fr; }
+
+.brubrik {grid-area: br; }
+.kortfakta {grid-area: kf; }
+.lever {grid-area: le; }
+.spid {grid-area: sp; }
+.bbild {grid-area: bb; }
+.vbild {grid-area: vb; }
+
+
+.vsida {
+    display: grid;
+    grid-template-areas:
+    'br'
+    'kf'
+    'vb'
+    'le'
+    'sp'
+    'rt'
+}
+
+
+.bsida {
+    display: grid;
+    grid-template-areas:
+    'br'
+    'kf'
+    'bb'
+    'le'
+    'sp'
+    'rt'
+}
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'hd hd hd hd '
-    'mn mn mn mn  '
-    'fr fr fr fr '
-    'rt rt rt rt'
+    'hd '
+    'mn '
+    'fr '
+    'rt '
     ;
 }
 .grid-container, .bsida{
@@ -48,10 +79,11 @@
     height: 60px;
     color: white;
 }
-.om{
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+.logga{
+    background-image: url('/img/logga.png');
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
 }
 .vargen{
     background-image: url('/img/wolf.jpg');
@@ -90,5 +122,23 @@ a:active{
     backdrop-filter: blur(7px);
     color: white;
     border: 3px solid white
+
+}
+
+.bbild {
+    background-image: url('/img/brummare.jpg');
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position-x: 74%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vbild {
+    background-image: url('/img/varg.jpg');
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position-x: 74%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
