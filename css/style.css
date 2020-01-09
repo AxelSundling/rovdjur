@@ -58,7 +58,7 @@
 }
 .bjornen{
     padding: 100px;
-    background-image: url('/img/bear.jpeg');
+    background-image: url('../img/bear.jpeg');
     min-height: 400px; 
     background-attachment: fixed;
     background-position: center;
@@ -80,13 +80,13 @@
     color: white;
 }
 .logga{
-    background-image: url('/img/logga.png');
+    background-image: url('../img/logga.png');
     width: 100%;
     height: 300px;
     background-size: 100% 100%;
 }
 .vargen{
-    background-image: url('/img/wolf.jpg');
+    background-image: url('../img/wolf.jpg');
     min-height: 600px; 
     background-attachment: fixed;
     background-position: center;
@@ -126,7 +126,7 @@ a:active{
 }
 
 .bbild {
-    background-image: url('/img/brummare.jpg');
+    background-image: url('../img/brummare.jpg');
     min-height: 300px; 
     background-attachment: fixed;
     background-position-x: 74%;
@@ -134,7 +134,7 @@ a:active{
     background-size: cover;
 }
 .vbild {
-    background-image: url('/img/varg.jpg');
+    background-image: url('../img/varg.jpg');
     min-height: 300px; 
     background-attachment: fixed;
     background-position-x: 74%;
